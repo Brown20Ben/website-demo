@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind config</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-blue-100 font-body">
+
+
+    <header class="   bg-slate-50 ">
+        <nav class=" flex justify-between items-center w[92%] md:mx-40 mx-5 font-sans ">
+            <div class=" my-2 font-bold md:text-5xl text-2xl">
+                OWO
+            </div>
+            <div class=" nav-links md:static md:min-h-fit absolute md:rounded-none bg-opacity-90 shadow-lg bg-slate-50 
+ min-h-[32vh] right-0 top-[-100%] md:w-auto  w-1/2 flex items-center justify-center rounded-md" >
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-6 px-5 text-base font-semibold 
+ text-gray-900">
+                
+                     <li>
+                        <a  class="hover:text-gray-600" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-5">
+                <button class=" bg-blue-600 hover:bg-blue-900 rounded-full md:px-5 md:py-2 md:font-semibold font-medium 
+ text-sm py-1 px-3 text-white "> Book </button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-4xl cursor-pointer md:hidden"></
+ ion-icon>
+            </div>
+         
+        </nav>
+    </header>
+
+
+    <div class="  overflow-x-hidden"> <!-- start wrap-->
+
+
+
+        <main class=" mx-40   bg-purple-00">
+
+            <div class="  bg-slate-00 mt-20">
+                <div class=" flex justify-end gap-4 bg-slate-0 p-20 relative">
+                   
+                <div class=" w-36 h-40 rounded overflow-hidden absolute top-0 right-0">
+                    <img src="img/prof.jpg" alt="prof" class="object-cover w-fit">
+
+                  </div>
+
+                  <div class=" w-36 h-40 rounded overflow-hidden absolute top-44 right-0">
+                    <img src="img/prof.jpg" alt="prof" class="object-cover w-fit">
+                  </div>
+
+                  <div class=" w-36 h-40 rounded overflow-hidden absolute top-36 right-80">
+                    <img src="img/prof.jpg" alt="prof" class="object-cover w-fit">
+                  </div> 
+
+                  <div class=" w-36 h-40 rounded overflow-hidden absolute right-40">
+                    <img src="img/prof.jpg" alt="prof" class="object-cover w-fit">
+                  </div>
+                </div>
+                
+            </div>
+
+            <div class=" flex justify-center bg-slate-00 mt-60 mb-10 font-bold text-xl">   
+                <h3> Our Objectives</h3>
+            </div>
+
+            <div class=" grid justify-center  bg-slate-00 p-5 ">
+                <div class="grid lg:grid-cols-2 lg:gap-3 gap-y-5 lg:justify-center lg:items-center  bg-purple-00  font-body 
+                    font-bold  ">
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center  rounded-lg h-24 
+                        w-96 shadow hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center  rounded-lg h-24 
+                        w-96 shadow hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center  rounded-lg h-24 
+                        w-96 shadow hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center  rounded-lg h-24 
+                        w-96 shadow hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                </div>
+             
+             
+              
+            </div>
+
+            <div class=" flex justify-center bg-slate-00 mt-10 mb-10 font-bold text-xl">   
+                <h3> Our Team</h3>
+            </div>
+
+
+            </div>
+
+            
+
+
+        </main>
+
+        <footer>
+            <div class=" flex bg-slate-900 p-10 justify-center">
+                <div class="text-white font-body">
+                    <div class="grid md:grid-cols-3 gap-5 ">
+                        <div class="mb-5 ml-10 ">
+                            <h4 class="pb-4 font-bold">  Navigation Links</h4>
+                           
+                            <ul>
+                               <li  class="pb-2">
+                                   <a href="index.html"  class=" hover:text-slate-500"> Home</a>
+                               </li>
+                               <li class="pb-2 ">
+                                   <a href="about.html"  class=" hover:text-slate-500"> About</a>
+                               </li>
+                               <li class="pb-2 hover:text-slate-500">
+                                   <a href="contact.html"> Contact</a>
+                               </li>
+                               <li class="pb-2">
+                                   <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                               </li>
+                            </ul>
+                       </div>
+                       <div class="mb-5 mr-20 ml-10">
+                        <h4 class="pb-4 font-bold"> Useful Links</h4>
+                       
+                        <ul>
+                           <li  class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Home</a>
+                           </li>
+                           <li class="pb-2 ">
+                               <a href="#"  class=" hover:text-slate-500"> About</a>
+                           </li>
+                           <li class="pb-2 hover:text-slate-500">
+                               <a href="#"> Contact</a>
+                           </li>
+                           <li class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                           </li>
+                        </ul>
+                   </div>
+                   <div class="mb-5 ml-10">
+                    <h4 class="pb-4 font-bold"> Useful Resources</h4>
+                   
+                    <ul>
+                       <li  class="pb-2">
+                           <a href="#"  class=" hover:text-slate-500"> Home</a>
+                       </li>
+                       <li class="pb-2 ">
+                           <a href="#"  class=" hover:text-slate-500"> About</a>
+                       </li>
+                       <li class="pb-2 hover:text-slate-500">
+                           <a href="#"> Contact</a>
+                       </li>
+                       <li class="pb-2">
+                           <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                       </li>
+                    </ul>
+               </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class=" flex justify-center bg-slate-800 text-xs text-slate-50 font-medium">
+            <h4> Copyright 2024</h4>
+        </div>
+
+
+
+    </div> <!-- end wap-->
+
+
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        function onToggleMenu(e) {
+            e.name = e.name === 'close' ? 'menu' : 'close';
+            navLinks.classList.toggle('top-[7%]');
+        }
+    </script>
+
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+
+
+
+
+</body>
+</html>

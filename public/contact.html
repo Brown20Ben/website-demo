@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind config</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-blue-100 font-body">
+
+    <header class="   bg-slate-50 ">
+        <nav class=" flex justify-between items-center w[92%] md:mx-40 mx-5 font-sans ">
+            <div class=" my-2 font-bold md:text-5xl text-2xl">
+                OWO
+            </div>
+
+            <div class=" nav-links md:static md:min-h-fit absolute md:rounded-none bg-opacity-90 shadow-lg bg-slate-50 min-h-[32vh] right-0 top-[-100%] md:w-auto  w-1/2 flex items-center justify-center rounded-md" >
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-6 px-5 text-base font-semibold text-gray-900">
+
+                    <li>
+                        <a  class="hover:text-gray-600" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div class="flex items-center gap-5">
+                <button class=" bg-blue-600 hover:bg-blue-900 rounded-full md:px-5 md:py-2 md:font-semibold font-medium text-sm py-1 px-3 text-white "> Book </button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-4xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+
+
+         
+        </nav>
+
+    </header>
+
+
+    <div class="  overflow-x-hidden"> <!-- start wrap-->
+
+        <main class=" lg:mx-40   bg-purple-00">
+            <div class="flex justify-center  lg:bg-white items-center rounded-lg mt-20 mb-20 lg:mb-20 lg:min-h-screen">
+                <div class=" bg-whi  rounded-lg  w-full overflow-hidden max-w-md  hidden lg:visible">
+                    <img src="img/prof.jpg" alt="" class=" w-fit object-cover">
+                </div>
+
+
+
+                <div class="block bg-white p-8 rounded-lg lg:w-full w-96 max-w-lg">
+                  <h2 class="text-2xl font-semibold mb-6 text-center">Contact Us</h2>
+            
+                  <form action="#" method="POST flex justify-center">
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
+                      <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent" type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+            
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                      <input class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent" type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+            
+                    <div class="mb-4">
+                      <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                      <textarea class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent" id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+                    </div>
+            
+                    <div class="flex justify-between items-center">
+                      <button class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors" type="submit">Send</button>
+                      <a href="#" class="text-sm text-blue-500 hover:underline">Cancel</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+        
+
+
+        </main>
+
+        <footer>
+            <div class=" flex bg-slate-900 p-10 justify-center">
+                <div class="text-white font-body">
+                    <div class="grid md:grid-cols-3 gap-5 ">
+                        <div class="mb-5 ml-10 ">
+                            <h4 class="pb-4 font-bold"> Useful Links</h4>
+                           
+                            <ul>
+                               <li  class="pb-2">
+                                   <a href="index.html"  class=" hover:text-slate-500"> Home</a>
+                               </li>
+                               <li class="pb-2 ">
+                                   <a href="about.html"  class=" hover:text-slate-500"> About</a>
+                               </li>
+                               <li class="pb-2 hover:text-slate-500">
+                                   <a href="contact.html"> Contact</a>
+                               </li>
+                               <li class="pb-2">
+                                   <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                               </li>
+                            </ul>
+                       </div>
+                       <div class="mb-5 mr-20 ml-10">
+                        <h4 class="pb-4 font-bold"> Navigation Links</h4>
+                       
+                        <ul>
+                           <li  class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Home</a>
+                           </li>
+                           <li class="pb-2 ">
+                               <a href="#"  class=" hover:text-slate-500"> About</a>
+                           </li>
+                           <li class="pb-2 hover:text-slate-500">
+                               <a href="#"> Contact</a>
+                           </li>
+                           <li class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                           </li>
+                        </ul>
+                   </div>
+                   <div class="mb-5 ml-10">
+                    <h4 class="pb-4 font-bold"> Useful Resources</h4>
+                   
+                    <ul>
+                       <li  class="pb-2">
+                           <a href="#"  class=" hover:text-slate-500"> Home</a>
+                       </li>
+                       <li class="pb-2 ">
+                           <a href="#"  class=" hover:text-slate-500"> About</a>
+                       </li>
+                       <li class="pb-2 hover:text-slate-500">
+                           <a href="#"> Contact</a>
+                       </li>
+                       <li class="pb-2">
+                           <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                       </li>
+                    </ul>
+               </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class=" flex justify-center bg-slate-800 text-xs text-slate-50 font-medium">
+            <h4> Copyright 2024</h4>
+        </div>
+
+
+
+    </div> <!-- end wap-->
+
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        function onToggleMenu(e) {
+            e.name = e.name === 'close' ? 'menu' : 'close';
+            navLinks.classList.toggle('top-[7%]');
+        }
+    </script>
+
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>

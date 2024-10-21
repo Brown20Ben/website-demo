@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" class="!scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind config</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-blue-100 font-sans">
+
+
+    <header class="   bg-slate-50 ">
+        <nav class=" flex justify-between items-center w[92%] md:mx-40 mx-5 font-sans ">
+            <div class=" my-2 font-bold md:text-5xl text-2xl">
+                OWO
+            </div>
+            <div class=" nav-links md:static md:min-h-fit absolute md:rounded-none bg-opacity-90 shadow-lg bg-slate-50 
+    min-h-[32vh] right-0 top-[-100%] md:w-auto  w-1/2 flex items-center justify-center rounded-md" >
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-6 px-5 text-base font-semibold 
+    text-gray-900">
+                    <li>
+                        <a  class="hover:text-gray-600" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-gray-600"  href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-5">
+                <button class=" bg-blue-600 hover:bg-blue-900 rounded-full md:px-5 md:py-2 md:font-semibold font-medium 
+    text-sm py-1 px-3 text-white "> Book </button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu-outline" class="text-4xl cursor-pointer md:hidden"></
+    ion-icon>
+            </div>
+         
+        </nav>
+    </header>
+
+
+    <div class="  overflow-x-hidden"> <!-- start wrap-->
+        
+        <main class=" lg:mx-40  bg-purple-00">
+
+            <header class=" lg:mt-28 mt-32 lg:pb-10">
+                <h1 class=" flex justify-center font-sans font-extrabold text-4xl lg:text-8xl lg:mt-4 lgmb-4" > Build Stunning </h1>
+                <h4 class= "flex justify-center font-sans font-extrabold text-3xl lg:text-8xl lg:mt-4 lg:mb-4"> UI In Seconds</h4>
+            </header>
+
+            <div class="lg:bg-blue-700 bg-blue-700 mt-28 lg:h-2/3 flex justify-center  lg:first-letter:rounded-t-xl  relative">
+                <div class="bg-white rounded-lg w-40 h-14 flex justify-start items-center mt-10 mr-96 absolute left-9 shadow-sm shadow-white ">
+                    <div class=" rounded-full bg-black w-10 h-10 overflow-hidden content-center ml-3"> 
+                        <img src="img/prof.jpg" alt="profile" class=" object-cover w-full">
+
+                    </div>
+                    <span class=" pl-4 pr-3">
+                        <h4 class=" font-body font-bold mt-2"> Koo Bonsu</h4>
+                        <h3 class=" font-body text-sm text-blue-950 font-semibold mb-3">Designer</h3>
+                    </span>
+                </div>
+
+                
+                <div class=" bg-slate-30 w-1/2 mt-32 mb-20">
+                    <span>
+                        <h3 class=" text-white text-justify font-sans font-bold">
+     Welcome to OWO!
+    
+    Hi there! I'm the Senior UI Designer at <b>OWOs</b>, and I’m thrilled to welcome you to our platform. At <b>OWO</b>, our 
+    goal is simple yet powerful: to help you <b>Build Stunning UI In Seconds</b>.
+    
+    Whether you're a seasoned designer or just starting your journey, our tools are crafted to simplify your creative process 
+    while offering unparalleled flexibility. We believe that great design should be intuitive, efficient, and most 
+    importantly fun!
+    
+    Dive in, explore our features, and let's bring your ideas to life with elegance and speed. We're here to make sure your 
+    UI shines, effortlessly.
+    
+    Happy designing!
+                        </h3>
+                    </span>
+
+                    <div class=" lg:flex lg:justify-center hidden items-center bg-white text-blue-800 rounded-full w-24 
+                    lg:mt-5 h-10 ml-96 hover:bg-transparent hover:border-2 hover:border-white hover:text-white  transition ease-in-out absolute">
+                        <span class="">
+                            <a href="" class=" font-body font-extrabold text-basetracking-wide  "> &nbsp; Book &nbsp;</a>
+                        </span>
+                    </div>
+
+
+                </div>
+
+
+
+                
+            </div>
+
+            
+            <header class="flex lg:justify-start justify-center pb-5 mt-16 text-2xl font-bold text-gray-900"> Finished Projects</header>
+    
+    
+            <div class="grid lg:grid-cols-3 lg:gap-9 lg:justify-center lg:items-center justify-center bg-purple-00  ">
+                <!--Cards go here-->
+                <div class=" h-85 w-80 cards hover:shadow-lg lg:p-5 " >
+                    <img src="img/cards.png" alt="brown ebe" class=" w-full h-60 rounded-sm shadow-sm object-cover"  >
+                    <div class=" m-4">
+                        <span class="font-bold"> Ghat GPT</span>
+                        <span class="block text-gray-400 text-sm">Research tool made By Open ai</span>
+                    </div>
+                   <!-- <div class=" bg-green-700 text-white font-xs  font-bold rounded-full p-2 absolute bottom-0 ml-60
+               mb-5 hover:bg-green-800 transition-300 ">
+                          <a href="">
+                            <span class="ml-3 mr-3 text-xs ">View
+                            </span>
+                        </a>
+                        
+                    </div>-->
+                    
+                </div>
+
+                <div class="h-85 w-80 cards hover:shadow-lg lg:p-5 " >
+                    <img src="img/school dashboard.png" alt="brown ebe" class=" w-full h-60 rounded-sm shadow-sm  
+                object-cover"  >
+                    <div class=" m-4">
+                        <span class="font-bold"> Ghat GPT</span>
+                        <span class="block text-gray-400 text-sm">Research tool made By Open ai</span>
+                    </div>
+                   <!-- <div class=" bg-green-700 text-white font-xs  font-bold rounded-full p-2 absolute bottom-0 ml-60
+                b-5 hover:bg-green-800 transition-300 ">
+                          <a href="">
+                            <span class="ml-3 mr-3 text-xs ">View
+                            </span>
+                        </a>
+                        
+                    </div>-->
+                    
+                </div>
+
+                <div class="h-85 w-80 cards hover:shadow-lg lg:p-5 " >
+                    <img src="img/school dashboard.png" alt="brown ebe" class=" w-full h-60 rounded-sm shadow-sm  object-cover"  >
+                    <div class=" m-4">
+                        <span class="font-bold"> Ghat GPT</span>
+                        <span class="block text-gray-400 text-sm">Research tool made By Open ai</span>
+                    </div>
+                   <!-- <div class=" bg-green-700 text-white font-xs  font-bold rounded-full p-2 absolute bottom-0 ml-60
+                b-5 hover:bg-green-800 transition-300 ">
+                          <a href="">
+                            <span class="ml-3 mr-3 text-xs ">View
+                            </span>
+                        </a>
+                        
+                    </div>-->
+                    
+                </div>
+
+
+            </div>
+
+            
+            <header class=" flex lg:justify-start justify-center pb-5 mt-14 text-2xl font-bold text-gray-900"> Services </header>
+            <h2 class=" flex justify-center text-gray-900 text-lg font-bold mb-2 mt-10">Services Included In Our <span class=" font-black ml-1 bg-blue-00"> Package</span></h2>
+
+            <div class=" grid justify-center  bg-slate-00 p-5">
+               
+
+                <div class="grid lg:grid-cols-4 lg:gap-3 lg:justify-center lg:items-center gap-y-5  bg-purple-00 mt-5 font-sans font-bold  ">
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center lg:p-4 p-4 rounded-full shadow hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center lg:p-4 p-4 rounded-full shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                Mobile & Web App Design  
+                             </a>
+                        </span>
+                        
+                    </div>
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center lg:p-4 p-4 rounded-full shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                Prototyping & Testing
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class="  ">
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center lg:p-4 p-4 rounded-full shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                UX Strategy
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+
+                </div>
+             
+             
+              
+            </div>
+
+            
+
+            <h2 class=" flex justify-center text-gray-900 text-lg font-bold mb-2 mt-10">Customer <span 
+                class=" font-black ml-1 bg-blue-00"> Reviews</span></h2>
+
+            <div class=" grid justify-center  bg-slate-00 p-5 mb-10">
+   
+                <div class="grid lg:grid-cols-2 lg:gap-3 lg:justify-center lg:items-center  gap-y-5 bg-purple-00 mt-5 font-sans 
+            font-bold  ">
+                    <div class=" relative ">
+
+                        <div class=" flex items-center bg-slate-100 shadow-inner rounded-md p-1 m-2 w-fit h-11 absolute">
+                            <div class=" flex rounded-full bg-black w-10 h-10 overflow-hidden content-center m-1 
+                            items-center "> 
+                                 <img src="img/prof.jpg" alt="profile" class=" object-cover w-full">
+                             </div>
+                             <span class=" text-center  text-xs text-gray-900 mr-1">
+                                 <h4 class=" font-body font-extrabold ">Mark Bab</h4>
+                                 <h4 class="text-blue-950 tracking-tight"> M.D Ophil</h4>
+                             </span>
+                        </div>
+
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center pt-10 rounded-lg h-24 w-96 shadow 
+            hover:shadow-lg">
+                            <a href="">
+                                UI Designs
+                             </a>
+                        </span>
+                        
+                    </div>
+
+
+                    <div class=" relative ">
+                        <div class=" flex items-center bg-slate-100 shadow-inner rounded-md p-1 m-2 w-fit h-11 absolute">
+                            <div class=" flex rounded-full bg-black w-10 h-10 overflow-hidden content-center m-1 
+                            items-center "> 
+                                 <img src="img/prof.jpg" alt="profile" class=" object-cover w-full">
+                             </div>
+                             <span class=" text-center  text-xs text-gray-900 mr-1">
+                                 <h4 class=" font-body font-extrabold ">Mark Bab</h4>
+                                 <h4 class="text-blue-950 tracking-tight"> M.D Ophil</h4>
+                             </span>
+
+                        </div>
+                        
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center pt-10 rounded-lg h-24 w-96 shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                Mobile & Web App Design  
+                             </a>
+                        </span>
+                        
+                    </div>
+
+                    <div class=" relative ">
+
+                        <div class=" flex items-center bg-slate-100 shadow-inner rounded-md p-1 m-2 w-fit h-11 absolute">
+                            <div class=" flex rounded-full bg-black w-10 h-10 overflow-hidden content-center m-1 
+                            items-center "> 
+                                 <img src="img/prof.jpg" alt="profile" class=" object-cover w-full">
+                             </div>
+                             <span class=" text-center  text-xs text-gray-900 mr-1">
+                                 <h4 class=" font-body font-extrabold ">Mark Bab</h4>
+                                 <h4 class="text-blue-950 tracking-tight"> M.D Ophil</h4>
+                             </span>
+                        </div>
+
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center pt-10 rounded-lg h-24 w-96 shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                Prototyping & Testing
+                             </a>
+                        </span>
+                        
+                    </div>
+
+                    
+                    <div class=" relative ">
+
+                        <div class=" flex items-center bg-slate-100 shadow-inner rounded-md p-1 m-2 w-fit h-11 absolute">
+                            <div class=" flex rounded-full bg-black w-10 h-10 overflow-hidden content-center m-1 
+                            items-center "> 
+                                 <img src="img/prof.jpg" alt="profile" class=" object-cover w-full">
+                             </div>
+                             <span class=" text-center  text-xs text-gray-900 mr-1">
+                                 <h4 class=" font-body font-extrabold ">Mark Bab</h4>
+                                 <h4 class="text-blue-950 tracking-tight"> M.D Ophil</h4>
+                             </span>
+                        </div>
+                      
+                        <span class=" flex justify-center  bg-slate-50 text-gray-950 items-center pt-10 rounded-lg h-24 w-96 shadow 
+                   hover:shadow-lg">
+                            <a href="">
+                                UX Strategy
+                             </a>
+                        </span>
+                        
+                    </div>
+                </div>
+             
+             
+              
+            </div> 
+
+
+
+            </div>
+
+
+            <h2 class=" flex justify-center text-gray-900 text-lg font-bold mb-5 mt-10">Locate <span 
+                class=" font-black ml-1 bg-blue-00"> Us</span></h2>
+
+
+
+            <div class=" flex justify-center lg:p-5 mb-10 ">
+                <p>
+                    <iframe class="flex justify-center shadow-md hover:shadow-lg w-96 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.219537872659!2d-0.4278486258731515!3d5.5344208338681025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfbb98aa10b107%3A0xc1ffb56cdf22056b!2sKasoa%20Akweley%20Newtown%20Roundabout!5e0!3m2!1sen!2sgh!4v1728646085200!5m2!1sen!2sgh" width="800" height="300" style="border:0; border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+
+
+            <footer>
+
+                <div class=" flex bg-slate-900 p-10 justify-center">
+                    <div class="text-white font-sans">
+                        <div class="grid md:grid-cols-3 gap-5 ">
+
+                            <div class="mb-5 ml-10 ">
+                                <h4 class="pb-4 font-bold">  Navigation Links</h4>
+                               
+                                <ul>
+                                   <li  class="pb-2">
+                                       <a href="index.html"  class=" hover:text-slate-500"> Home</a>
+                                   </li>
+                                   <li class="pb-2 ">
+                                       <a href="about.html"  class=" hover:text-slate-500"> About</a>
+                                   </li>
+                                   <li class="pb-2 hover:text-slate-500">
+                                       <a href="contact"> Contact</a>
+                                   </li>
+                                   <li class="pb-2">
+                                       <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                                   </li>
+                                </ul>
+                           </div>
+
+
+                           <div class="mb-5 mr-20 ml-10">
+                            <h4 class="pb-4 font-bold"> Useful Links</h4>
+                           
+                            <ul>
+                               <li  class="pb-2">
+                                   <a href="#"  class=" hover:text-slate-500"> Home</a>
+                               </li>
+                               <li class="pb-2 ">
+                                   <a href="#"  class=" hover:text-slate-500"> About</a>
+                               </li>
+                               <li class="pb-2 hover:text-slate-500">
+                                   <a href="#"> Contact</a>
+                               </li>
+                               <li class="pb-2">
+                                   <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                               </li>
+                            </ul>
+                       </div>
+
+
+                       <div class="mb-5 ml-10">
+                        <h4 class="pb-4 font-bold"> Useful Resources</h4>
+                       
+                        <ul>
+                           <li  class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Home</a>
+                           </li>
+                           <li class="pb-2 ">
+                               <a href="#"  class=" hover:text-slate-500"> About</a>
+                           </li>
+                           <li class="pb-2 hover:text-slate-500">
+                               <a href="#"> Contact</a>
+                           </li>
+                           <li class="pb-2">
+                               <a href="#"  class=" hover:text-slate-500"> Term of Service</a>
+                           </li>
+                        </ul>
+                   </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </footer>
+            
+            <div class=" flex justify-center bg-slate-800 text-xs text-slate-50 font-medium">
+                <h4> Copyright 2024</h4>
+
+            </div>
+
+
+
+        </main>
+
+
+
+    </div> <!-- end wap-->
+
+
+    <script>
+        const navLinks = document.querySelector('.nav-links');
+        function onToggleMenu(e) {
+            e.name = e.name === 'close' ? 'menu' : 'close';
+            navLinks.classList.toggle('top-[7%]');
+        }
+    </script>
+
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
